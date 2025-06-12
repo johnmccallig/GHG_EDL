@@ -2,7 +2,7 @@
 
 ## Introduction
 
-GHG_EDL is a prototype an information system that would provide more consistent, accurate and transparent information about GHG emissions. 
+GHG_EDL is a prototype of an information system that would provide more consistent, accurate and transparent information about GHG emissions. 
 
 This repository supports a chapter in *Contemporary Issues in Sustainable Finance* from the Palgrave Collection.
 
