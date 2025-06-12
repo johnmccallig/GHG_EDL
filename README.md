@@ -30,6 +30,8 @@ Clone the repository to a local directory.
 
 Install [docker](https://www.docker.com/) and docker-compose.
 
+Make sure that docker desktop is running
+
 In a terminal, make sure you are in the cloned directory. Issue the following command
 
 ```
@@ -45,6 +47,8 @@ When the application has terminated (type exit into the command line) you may ne
 ## Running GHG_EDL
 
 ### Start docker compose
+
+Make sure that docker desktop is running
 
 In the cloned directory
 ```
@@ -82,6 +86,16 @@ Brownie should start an etherium blockchain and execute the code in scripts/depl
 - Post the links between the smart contracts for Scope 3 emissions
 - Calculates the total emissions for each product and posts that data unencrypted and in the form of a Pedersen commitment.
 - Downloads the encrypted data and verifies that the sum of the commitments for the producers own emissions and the linked scope 3 emissions is equal to the total GHG emissions commitment   
+
+When you are finished with the container
+
+```
+% exit   #to exit the command line on the container
+```
+back in the local terminal
+```
+% docker compose down
+```
 
 # Making Changes
 
